@@ -13,7 +13,20 @@
 
 import requests
 
-key = "85a8bd06685691821a53e13633c6c798"
+# =================================
+
+# EDIT THESE SETTINGS
+
+# You can find your key here https://www.wanikani.com/settings/account
+
+key = ""
+
+# =================================
+
+# CODE BEGINS HERE
+
+# =================================
+
 url_study = f"https://www.wanikani.com/api/user/{key}/study-queue"
 url_srs = f"https://www.wanikani.com/api/user/{key}/srs-distribution"
 
