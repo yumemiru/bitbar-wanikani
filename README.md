@@ -12,9 +12,12 @@ This bitbar plugin displays the number of reviews and lessons that you have on W
 ## Installation
 
 1. Clone/Fork the repository.
-2. Drag `wanikani.15m.py` to your `bitbar_plugins` folder.
-3. Open Bitbar and press CMD + R.
-4. Insert your token to `wanikani.15m.py`
+2. Open Terminal.
+3. Type `cd ` and drop the new folder onto your terminal window.
+4. Run `python3.6 -m pip install -r requirements.txt`
+5. Drag `wanikani.15m.py` to your `bitbar_plugins` folder.
+6. Open Bitbar and press CMD + R.
+7. Insert your token to `wanikani.15m.py`
 
 If you'd like to change the refresh rate of information, change `wanikani.15m.py` to `wanikani.*m.py` where `*` is the delay in minutes in which you want to refresh the script!
 
